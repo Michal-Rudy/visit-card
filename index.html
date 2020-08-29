@@ -7,35 +7,40 @@
 
     <link href="/styles/normalize.css" rel="stylesheet" type="text/css" />
     <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
- 
+
   <body>
-    
     <main class="main">
-      <article>
-        <img src="/images/michal-rudy-avatar.png" alt="michal rudy photo web developer marketing">
-        <header>
-          <h1>
-            Michał Rudy
-          </h1>
-          <p>
-            web developer, marketing specialist
+      <article class="user">
+        <img
+          class="user__avatar"
+          src="/images/michal-rudy-avatar.png"
+          alt="michal rudy photo web developer marketing"
+        />
+        <div>
+          <header class="user__info">
+            <h1 class="user__name">Michał Rudy</h1>
+            <p class="user__position">web developer, marketing specialist</p>
+          </header>
+
+          <p class="user__description user__description--margin">
+            Strony są jak ludzie, nie ma dwóch takich samych i ta
+            <strong class="special">nieskończoność możliwości</strong> mnie
+            cieszy. Robię też <strong class="special">marketing</strong>, bo
+            sama strona to za mało, ludzie muszą jeszcze na nią trafić. Chodzę
+            po górach, lubię las, czasami chodzę też po wodzie. Uprawiam jogę i
+            sztuki walki. Medytuję, i jestem kurwa oazą spokoju.
           </p>
-        </header>
-        <p>
-          Lubię robić strony internetowe. 
-          Strony są jak ludzie, nie ma dwóch takich samych i ta różnorodność i nieskończoność możliwości mnie cieszy.
-          Robię też marketing, bo sama strona to za mało, jakoś ludzie muszą na nią trafić.
-          Chodzę po górach, lubię las, czasami chodzę też po wodzie. Robię jogę i sztuki walki. Medytuję.
-        </p>
-        <p>
-          Social media: 
-        </p>
-
-
+          <p class="user__description">Social media:</p>
+        </div>
       </article>
     </main>
-    
+
     <!-- <header>
       <nav>
         <ul>
@@ -67,7 +72,5 @@
     </section>
 
     <footer>Copyright Info</footer> -->
-
-
   </body>
 </html>

@@ -2,25 +2,68 @@ html {
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: #CECEBB;
+  background: #57574b;
   color: rgb(44, 43, 43);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+  font-family: 'Rubik', sans-serif;
 }
 
 
 .main {
   background-color: #F8F8F8;
-  border-radius: 2px;
+  border-radius: 3px;
   width: 624px;
   margin: 20px;
+  padding: 40px;
+}
+
+.user {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user__avatar {
+  margin-right: 28px;
+}
+
+.user__info {
+  margin-bottom: 20px
+}
+
+.user__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.user__position {
+  font-size: 18px;
+  color: #444;
+  font-style: italic;
+  margin: 0;
+}
+
+.user__descripton {
+  font-size: 16px;
+  line-height: 1.2em;
+  margin: 0; 
+}
+
+.user__descripton--margin {
+  margin-bottom: 20px0; 
+}
+
+.special {
+  color: crimson;
+  font-weight: normal;
 }
 
 .flex { 
