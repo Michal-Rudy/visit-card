@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2E2240;
+  color: whitesmoke;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.flex { 
+  min-height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: baseline;
+ } 
+
+ .flex__item {
+  padding: 20px;
+  background: rosybrown;
+  border: 1px solid yellow;
+  width: 400px;
+ }
+
+ .flex__item--bigger {
+   font-size: 50px;
+ }
+
+ .flex__item--centered {
+   align-self: center;
+ }
