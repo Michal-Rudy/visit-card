@@ -3,12 +3,24 @@ html {
 }
 
 body {
-  background: #2E2240;
-  color: whitesmoke;
+  background: #CECEBB;
+  color: rgb(44, 43, 43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+
+.main {
+  background-color: #F8F8F8;
+  border-radius: 2px;
+  width: 624px;
+  margin: 20px;
 }
 
 .flex { 
